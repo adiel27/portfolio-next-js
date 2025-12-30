@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Adiel",
+  lastName: "Fatich",
+  name: `Adiel`,
+  role: "App Developer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "fatich281@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "Bahasa Indonesia","Japanese", "Arabic", "Malay"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,7 +25,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/adiel27",
     essential: true,
   },
   {
@@ -37,13 +37,13 @@ const social: Social = [
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/adieruysn27/",
     essential: false,
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@adieruysn27",
     essential: true,
   },
   {
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Adiel, a design engineer and App Developer
 </>
   ),
 };
@@ -102,9 +102,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Adiel is a Surabaya-based design engineer with a passion for transforming complex challenges
+        into simple, elegant design solutions, functional apps, System optimization. My work spans digital interfaces, interactive
+        experiences, app innovations, system optimization and the convergence of design and technology.
       </>
     ),
   },
@@ -113,45 +113,46 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "UNIDA",
+        timeframe: "2021 - 2022",
+        role: "Network Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Managing the University Network.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Admin of University Central Network.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+      
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Al-Haitham",
+        timeframe: "2022 - 2023",
+        role: "IT Support and Technician",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Maintain system, replace hardware and build PCs for companies.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Optimize system to match companies needs.
           </>,
         ],
         images: [],
       },
+      {
+        company: "Win Institute",
+        timeframe: "2024 - Present",
+        role: "English Teacher",
+        achievements: [
+          <>
+          Teaching English to High School Student
+          </>
+        ]
+      }
     ],
   },
   studies: {
@@ -159,13 +160,13 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Darussalam Gontor Modern Islamic Institution",
+        description: <>As Senior High School Student</>
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+        name: "UPN Veteran East Java",
+        description: <>Studying software engineering.</>,
+      }
     ],
   },
   technical: {
@@ -184,25 +185,12 @@ const about: About = {
           },
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Building next gen apps with Next.js, C language, Kotlin and Java.</>
         ),
         tags: [
           {
@@ -216,18 +204,73 @@ const about: About = {
           {
             name: "Supabase",
             icon: "supabase",
-          },
+          }
+
         ],
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
+      {
+        title: "C",
+        description: (
+          <>Building micro services to optimize system and Next Gen apps</>
+        ),
+        tags: [
+          {
+            name: "C",
+            icon: "C"
+          }
+        ]
+      },
+      {
+        title: "Java",
+        description: (
+          <>Building Java Apps simple and complex</>
+        ),
+        tags: [
+          {
+            name: "Java",
+            icon: "Java"
+          }
+        ]
+      },
+      {
+        title: "React.Js",
+        description: (
+          <>Building Android apps and Web Apps with React.js</>
+        ),
+        tags: [
+          {
+            name: "React.Js",
+            icon: "React"
+          }
+        ]
+      },
+      {
+        title: "Kotlin",
+        description: (
+          <>Building Android apps with native code Kotlin</>
+        ),
+        tags: [
+          {
+            name: "Kotlin",
+            icon: "Kotlin"
+          }
+        ]
+      },
+      {
+        title: "PHP",
+        description: (
+          <>Configuring app data and backend configuration until deployed</>
+        ),
+        tags: [
+          {
+            name: "PHP",
+            icon: "PHP"
+          }
+        ]
+      }
+      
     ],
   },
 };
